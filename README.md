@@ -28,7 +28,7 @@ Used Plotly.js and D3 Library to create interactive charts for the dashboard.
 - Display the sample metadata, i.e., an individual's demographic information.
   - Display each key-value pair from the metadata JSON object somewhere on the page.
 
-  ![bar Chart](Images/bar_chart.png)
+  ![bar Chart](Images/bar_chart3.png)
 
 - Create a bubble chart that displays each sample.
   - Use `otu_ids` for the x values.
