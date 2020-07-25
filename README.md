@@ -1,13 +1,13 @@
 # Interactive Dashboard for data visualization
 
-Built an interactive dashboard, using Plotly.js graphing, to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
+Built an interactive dashboard using Plotly.js to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 ![](Images/Dashboard.png)
 
 ## Data Set:
 -----
 
-The [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/). is part of a study that explores the bacterial diversity found in human navels. The study indicates that more than 70% of people have the same microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
+The [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) is part of a study that explores the bacterial diversity found in human navels. The study indicates that more than 70% of people have the same microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
 
 
 ## Tools Used:
