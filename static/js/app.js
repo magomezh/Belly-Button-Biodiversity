@@ -33,18 +33,28 @@ function buildMetadata(sample) {
       {
         domain: { x: [0, 1], y: [0, 1] },
         value: parseFloat(wfreq),
-        title: { text: `<b>Belly Button Washing Frequency:</b><br>Scrubs per Week </br>` },
+        title: { text: `<b>Belly Button Washing Frequency:</b><br>Scrubs per Week </br>`},
         type: "indicator",
         mode: "gauge+number",
         gauge: {
           axis: { range: [null, 9], tickwidth: 1, tickcolor: "red" },
           bar: { color: "seagreen" },
           steps: [
-            { range: [0, 2], color: "azure" },
-            { range: [2, 4], color: "lightcyan" },
-            { range: [4, 6], color: "lightgreen" },
-            { range: [6, 8], color: "lime" },
-            { range: [8, 9], color: "limegreen" },
+            { range: [0, 1], color: "rgba(0, 105, 11, .5)" },
+            { range: [1, 2], color: "rgba(10, 120, 22, .5)" },
+            { range: [2, 3], color: "rgba(14, 127, 0, .5)" },
+            { range: [3, 4], color: "rgba(110, 154, 22, .5)"},
+            { range: [4, 5], color: "rgba(170, 202, 42, .5)"},
+            { range: [5, 6], color: "rgba(202, 209, 95, .5)"},
+            { range: [6, 7], color: "rgba(210, 206, 145, .5)"},
+            { range: [7, 8], color: "rgba(232, 226, 202, .5)"},
+            { range: [8, 9], color: "rgba(240, 230, 215, .5)"},
+            { range: [9, 10], color: "rgba(255, 255, 255, 0)"},
+            // { range: [0, 2], color: "azure" },
+            // { range: [2, 4], color: "lightcyan" },
+            // { range: [4, 6], color: "lightgreen" },
+            // { range: [6, 8], color: "lime" },
+            // { range: [8, 9], color: "limegreen" },
           ]
         }
       }
@@ -85,14 +95,21 @@ function createBubbleChart(sample) {
       mode: 'markers',
       marker: {
         size: mSize,
-        color: mClrs
+        color: mClrs,
+        colorscale: "Earth"
+        
       }
     };
 
     var bubbledata = [bubbleTrace];
 
     var layout = {
-      xaxis: { title: "OTU ID" }
+      title: { text: `<b>Bacteria Cultures Per Sample</b>`},
+      //title: "Bacteria Cultures Per Sample",
+      margin: { t: 0 },
+      hovermode: "closest",
+      xaxis: { title: "OTU ID" },
+      margin: { t: 30}
     };
 
     Plotly.newPlot('bubble', bubbledata, layout);
@@ -124,18 +141,20 @@ function createBarchart(sample) {
       y: OTU,
       text: tVal,
       //chose Azure for bar color: https://rgbcolorcode.com/color/azure
-      marker: { color: 'rgb(0,128,255)' },
+      marker: { color: 'rgb(0,150,100)'},
+      //marker: { color: 'rgb(0,128,255)'},
       orientation: 'h'
     }];
 
     var layout = {
+      title: { text: `<b>Top 10 Bacteria Cultures Found</b>`},
       // xaxis:{ autorange:'reversed'},
       // yaxis:{ side:'right' }
       // yaxis: { tickmode: "linear" },
       margin: {
         l: 100,
         r: 30,
-        t: 100,
+        t: 90,
         b: 30
       }
     }
