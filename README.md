@@ -2,11 +2,9 @@
 
 ![Bacteria by filterforge.com](Images/bacteria_2.png)
 
-Build a Plotly interactive dashboard from the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
+Build an interactive dashboard using Plotly from the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
-The dataset analyzes the bacterial diversity found in human navels. It catalogs these microbes (referred to in the study as operational taxonomic units, or OTUs). 
-
-Build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels. 
+The dataset is part of a study that explors the bacterial diversity found in human navels. The study demonstrates that more than 70% of people have the same common microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
 
 ## Data Set:
 -----
