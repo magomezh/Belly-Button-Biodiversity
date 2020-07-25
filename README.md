@@ -4,12 +4,12 @@
 
 Built an interactive dashboard using Plotly from the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
-The dataset is part of a study that explors the bacterial diversity found in human navels. The study demonstrates that more than 70% of people have the same common microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
+The dataset is part of a study that explores the bacterial diversity found in human navels. The study indicates that more than 70% of people have the same microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
 
 ## Data Set:
 -----
 
-Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [Belly Button Biodiversity](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
 
 ## Tools Used:
