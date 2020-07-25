@@ -47,4 +47,3 @@ Used Plotly.js and D3 Library to create interactive charts for the dashboard.
 
 - - -
 
-© 2019 Trilogy Education Services
