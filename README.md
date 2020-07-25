@@ -1,6 +1,6 @@
 # Interactive Dashboard for data visualization
 
-![Bacteria by filterforge.com](Images/bacteria_2.png)
+![](Images/dashboard.png)
 
 Built an interactive dashboard, using Plotly.js graphing, to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
@@ -14,7 +14,7 @@ The dataset is part of a study that explores the bacterial diversity found in hu
 
 ## Tools Used:
 ----
-JavaScript, D3, Plotly, HTML, Flask, and Heroku.
+JavaScript, D3, Plotly, HTML
 
 ## Objectives
 
@@ -25,7 +25,10 @@ Used Plotly.js and D3 Library to create interactive charts for the dashboard.
   - Use `otu_ids` as the labels for the bar chart.
   - Use `otu_labels` as the hovertext for the chart.
 
-  ![bar Chart](Images/hw01.png)
+- Display the sample metadata, i.e., an individual's demographic information.
+  - Display each key-value pair from the metadata JSON object somewhere on the page.
+
+  ![bar Chart](Images/bar_chart.png)
 
 - Create a bubble chart that displays each sample.
   - Use `otu_ids` for the x values.
@@ -36,18 +39,13 @@ Used Plotly.js and D3 Library to create interactive charts for the dashboard.
 
 ![Bubble Chart](Images/bubble_chart.png)
 
-- Display the sample metadata, i.e., an individual's demographic information.
-  - Display each key-value pair from the metadata JSON object somewhere on the page.
-
-![hw](Images/hw03.png)
-
 - Updates all of the plots any time that a new sample is selected.
 
 - Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency.
     - Modify the example gauge code to account for values ranging from 0 - 9
     - Update the chart whenever a new sample is selected
 
-![](Images/wash_frequency.png)
+![Gauge Chart](Images/gauge_chart.png)
 
 - - -
 
