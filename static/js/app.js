@@ -151,7 +151,7 @@ function createBarchart(sample) {
         l: 100,
         r: 30,
         t: 90,
-        b: 30
+        b: 40
       }
     }
     // Render the plot to the div tag with id "bar"
