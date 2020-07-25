@@ -1,59 +1,53 @@
-# Plot.ly - Belly Button Biodiversity
+# Interactive Dashboard for data visualization
 
 ![Bacteria by filterforge.com](Images/bacteria_2.png)
 
-Built an interactive dashboard, using Plotly.js graphing, from the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
+Built an interactive dashboard, using Plotly.js graphing, to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
-The dataset is part of a study that explores the bacterial diversity found in human navels. The study indicates that more than 70% of people have the same microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
 
 ## Data Set:
 -----
+[Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/).
 
-Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [Belly Button Biodiversity](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/).
+The dataset is part of a study that explores the bacterial diversity found in human navels. The study indicates that more than 70% of people have the same microbes living in their navels. The study refers to these microbes as operational taxonomic units (OTUs).
 
 
 ## Tools Used:
 ----
-JavaScript, D3, Plotly, HTML 
+JavaScript, D3, Plotly, HTML, Flask, and Heroku.
 
-## Plotly
+## Objectives
 
-1. Used the D3 library to read in `samples.json`.
+Used Plotly.js and D3 Library to create interactive charts for the dashboard. 
 
-2. Created a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-
-* Use `sample_values` as the values for the bar chart.
-
-* Use `otu_ids` as the labels for the bar chart.
-
-* Use `otu_labels` as the hovertext for the chart.
+- Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual, and use D3 library to read in `samples.json`.
+  - Use `sample_values` as the values for the bar chart.
+  - Use `otu_ids` as the labels for the bar chart.
+  - Use `otu_labels` as the hovertext for the chart.
 
   ![bar Chart](Images/hw01.png)
 
-3. Created a bubble chart that displays each sample.
-
-* Use `otu_ids` for the x values.
-
-* Use `sample_values` for the y values.
-
-* Use `sample_values` for the marker size.
-
-* Use `otu_ids` for the marker colors.
-
-* Use `otu_labels` for the text values.
+- Create a bubble chart that displays each sample.
+  - Use `otu_ids` for the x values.
+  - Use `sample_values` for the y values.
+  - Use `sample_values` for the marker size.
+  - Use `otu_ids` for the marker colors.
+  - Use `otu_labels` for the text values.
 
 ![Bubble Chart](Images/bubble_chart.png)
 
-4. Displays the sample metadata, i.e., an individual's demographic information.
-
-5. Displays each key-value pair from the metadata JSON object somewhere on the page.
+- Display the sample metadata, i.e., an individual's demographic information.
+  - Display each key-value pair from the metadata JSON object somewhere on the page.
 
 ![hw](Images/hw03.png)
 
-6. Updates all of the plots any time that a new sample is selected.
+- Updates all of the plots any time that a new sample is selected.
 
-![hw](Images/hw02.png)
+- Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency.
+    - Modify the example gauge code to account for values ranging from 0 - 9
+    - Update the chart whenever a new sample is selected
 
+![](Images/wash_frequency.png)
 
 - - -
 
