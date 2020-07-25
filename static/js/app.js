@@ -37,9 +37,9 @@ function buildMetadata(sample) {
         type: "indicator",
         mode: "gauge+number",
         gauge: {
-          axis: { range: [null, 9], tickwidth: 1, tickcolor: "red" },
+          axis: { range: [null, 9], tickwidth: 2, tickcolor: "red" },
           bar: { color: "seagreen" },
-          steps: [
+          steps: [ 
             { range: [0, 1], color: "rgba(0, 105, 11, .5)" },
             { range: [1, 2], color: "rgba(10, 120, 22, .5)" },
             { range: [2, 3], color: "rgba(14, 127, 0, .5)" },
@@ -68,12 +68,9 @@ function buildMetadata(sample) {
 
     Plotly.newPlot("gauge", gaugeTrace, layout);
   });
-  
 
 }
   
-
-
 /**********************************************************************************/
 
 function createBubbleChart(sample) {
@@ -97,7 +94,6 @@ function createBubbleChart(sample) {
         size: mSize,
         color: mClrs,
         colorscale: "Earth"
-        
       }
     };
 
