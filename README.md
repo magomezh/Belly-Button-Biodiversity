@@ -18,13 +18,15 @@ JavaScript, D3, Plotly, HTML
 
 Used Plotly.js and D3 Library to create interactive charts for the dashboard. 
 
+- Update all of the plots/charts any time that a new sample is selected.
+
 - Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual, and use D3 library to read in `samples.json`.
   - Use `sample_values` as the values for the bar chart.
   - Use `otu_ids` as the labels for the bar chart.
   - Use `otu_labels` as the hovertext for the chart.
 
 - Display the sample metadata, i.e., an individual's demographic information.
-  - Display each key-value pair from the metadata JSON object somewhere on the page.
+- Display each key-value pair from the metadata JSON object.
 
   ![bar Chart](Images/bar_chart2.png)
 
@@ -37,10 +39,8 @@ Used Plotly.js and D3 Library to create interactive charts for the dashboard.
 
 ![Bubble Chart](Images/bubble_chart2.png)
 
-- Updates all of the plots any time that a new sample is selected.
-
 - Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency.
-    - Modify the example gauge code to account for values ranging from 0 - 9
+    - Modify the example gauge code to account for values ranging from 0-9
     - Update the chart whenever a new sample is selected
 
 ![Gauge Chart](Images/gauge_chart.png)
