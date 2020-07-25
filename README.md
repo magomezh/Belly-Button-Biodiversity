@@ -2,14 +2,22 @@
 
 ![Bacteria by filterforge.com](Images/bacteria_2.png)
 
-Constructed an interactive dashboard to analyze the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels. 
+Build a Plotly interactive dashboard from the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
-## Data Set
+The dataset analyzes the bacterial diversity found in human navels. It catalogs these microbes (referred to in the study as operational taxonomic units, or OTUs). 
+
+Build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels. 
+
+## Data Set:
 -----
 
 Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
 
-"The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare." 
+"The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare." © 2019 Trilogy Education Services
+
+## Tools Used:
+----
+JavaScript, D3, Plotly, HTML 
 
 ## Plotly
 
