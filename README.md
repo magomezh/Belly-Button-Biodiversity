@@ -1,9 +1,8 @@
 # Interactive Dashboard for data visualization
 
-![](Images/Dashboard.png)
-
 Built an interactive dashboard, using Plotly.js graphing, to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
+![](Images/Dashboard.png)
 
 ## Data Set:
 -----
