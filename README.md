@@ -1,4 +1,4 @@
-# Interactive Dashboard for data visualization
+# Interactive Dashboard for Data Visualization
 
 Built an interactive dashboard using Plotly.js to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
@@ -14,7 +14,7 @@ The [Belly Button Biodiversity DataSet](http://robdunnlab.com/projects/belly-but
 ----
 JavaScript, D3, Plotly, HTML
 
-## Objectives
+## Create Charts and Plots
 
 Used Plotly.js and D3 Library to create interactive charts for the dashboard. 
 
